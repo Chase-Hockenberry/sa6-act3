@@ -1,4 +1,3 @@
-# Function to raise each number to the power of n using map() and lambda
 def power(numbers, n):
     power_num = list(map(lambda x: x ** n, numbers))
     return power_num
